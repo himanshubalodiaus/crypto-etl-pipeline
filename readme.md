@@ -4,10 +4,7 @@ An automated **ETL pipeline** that ingests cryptocurrency market data, transform
 
 Built end-to-end in Python: extract → transform → validate → load, with data-quality safeguards and idempotent, re-runnable loads.
 
-<!-- Replace with your live links once deployed -->
-**🔗 Live dashboard:** _coming soon_ · **📊 Data source:** [CoinGecko API](https://www.coingecko.com/en/api)
-
----
+**🔗 Live dashboard:** [View live](https://crypto-etl-pipeline-ia96b46bueawgqosihpdcd.streamlit.app/) · **📊 Data source:** [CoinGecko API](https://www.coingecko.com/en/api)
 
 ## Screenshot
 
@@ -125,7 +122,7 @@ crypto-etl-pipeline/
 - [ ] Containerise with Docker + docker-compose
 - [ ] Orchestrate with Apache Airflow (extract → transform → validate → load as a DAG)
 - [ ] CI pipeline: automated tests + linting on every push
-- [ ] Deploy dashboard publicly (Streamlit Community Cloud)
+- [x] Deploy dashboard publicly (Streamlit Community Cloud)
 
 ## License
 
