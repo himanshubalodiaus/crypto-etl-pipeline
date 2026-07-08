@@ -1,0 +1,21 @@
+# Keep secrets out of the image
+.env
+
+# Python cruft
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local caches (regenerated at runtime)
+.cache_snapshot.json
+.cache_backfill.json
+
+# Dev / VCS stuff not needed inside the container
+.git/
+.gitignore
+.venv/
+venv/
+tests/
+docs/
+README.mddocker run --env-file .env crypto-etl
+readme.md
